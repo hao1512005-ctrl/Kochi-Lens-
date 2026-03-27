@@ -24,27 +24,7 @@ Chức năng PIM cho phép quản lý thông tin sản phẩm, biến thể (mà
 * Customer: Xem và mua sản phẩm
 * Warehouse Staff: Quản lý tồn kho
 
-## 2.2. Use Case
-
-### Admin
-
-* Tạo sản phẩm
-* Cập nhật sản phẩm
-* Xóa sản phẩm
-* Quản lý biến thể
-* Cập nhật tồn kho
-
-### Customer
-
-* Xem danh sách sản phẩm
-* Xem chi tiết sản phẩm
-* Chọn biến thể
-* Thêm vào giỏ hàng
-
-### Warehouse Staff
-
-* Kiểm tra tồn kho
-* Cập nhật tồn kho
+## 2.2. Use Case Diagram
 
 ```mermaid
 usecaseDiagram
@@ -68,6 +48,7 @@ Warehouse --> (Update Inventory)
 
 (Select Variant) --> (Check Inventory)
 (Add to Cart) --> (Check Inventory)
+```
 
 ## 2.3. Activity Flow
 
